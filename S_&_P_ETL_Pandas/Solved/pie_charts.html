@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name = "viewport" content = "width=device-width, initial-scale=1">
+      <title>S&P 500 Visualizations</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <!-- I'm not sure why but the next 3 scripts were needed for the Dropdown menu to work in the Navbar-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light backgroundcolor">
+        <a class="navbar-brand" style = "background-color: skyblue" href="../Solved/index.html">Dashboard</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+              <li class="dropdown nav-item">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots 
+                </a>
+                <ul class="dropdown-menu blackBg">
+                  <li><a class="dropdown-item" href="../Solved/one_month_change.html">One Month Percent Change</a></li>
+                  <li><a class="dropdown-item" href="../Solved/three_month_change.html">Three Month Percent Change</a></li>
+                  <li><a class="dropdown-item" href="../Solved/fifty_two_week_change.html">52 Week Percent Change</a></li>
+                  <li><a class="dropdown-item" href="../Solved/ytd_change.html">Year-to-Date Change</a></li>
+                </ul>
+              </li>
+            <a class="nav-link" href="../Solved/comparison.html">Comparison</a>
+            <a class="nav-link" href="../Solved/pie_charts.html">Pie Charts</a>
+          </div>
+        </div>
+      </nav>
+</header>
+
+<div class = "container">
+    <div class = "row">
+        <div class="col-lg-12 col-md-12">
+          <div class="card card-3">
+            <section style = "width: 100%">
+                <strong><h3 class = "title">Comparison: S&P 500 by Sector</h3></strong>
+                <hr>
+                <p>Click any plot to get an in-depth analysis.</p>
+                
+                <a href="../Solved/one_month_change.html"><img src="../Resources/assets/images/Pie1MChg.png" alt="Jake Byford" class ="compare" /></a>
+                <a href="../Solved/three_month_change.html"><img src="../Resources/assets/images/Pie3MChg.png" alt="Jake Byford" class ="compare" /></a>
+                <a href="../Solved/fifty_two_week_change.html"><img src="../Resources/assets/images/Pie52WChg.png" alt="Jake Byford" class ="compare" /></a>
+                <a href="../Solved/ytd_change.html"><img src="../Resources/assets/images/PieYTDChg.png" alt="Jake Byford" class ="compare" /></a>
+                
+            </section>  
+        </div>
+      </div>
+    </div>
+
+
+<div id="page-container">
+    <div id="content-wrap">
+    <!-- all other page content -->
+    </div>
+    <footer id = "footer"> 
+        <div class = "footer">&copy Copyright Data Science Bootcamp 2020 </div>
+    </footer>
+</div>
+</div>
+</body>
+</html>
