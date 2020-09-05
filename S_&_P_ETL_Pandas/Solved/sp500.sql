@@ -5,7 +5,7 @@ ID TEXT PRIMARY KEY,
 	name TEXT,
 	last TEXT
 	);
-drop table main_data
+-- drop table main_data
 select * from main_data
 
 CREATE TABLE technical_data (
@@ -14,7 +14,7 @@ ID TEXT PRIMARY KEY,
 	_52W_Low TEXT,
 	_52W_High TEXT
 	);
-drop table technical_data
+-- drop table technical_data
 select * from technical_data
 
 CREATE TABLE fundamental_data (
@@ -25,7 +25,7 @@ ID TEXT PRIMARY KEY,
 	Div_Yield TEXT
 	);
 	
-drop table fundamental_data
+-- drop table fundamental_data
 select * from fundamental_data
 
 CREATE TABLE performance_data (
@@ -36,5 +36,5 @@ ID TEXT PRIMARY KEY,
 	_52W_PerChg TEXT
 	);
 
-drop table performance_data
+-- drop table performance_data
 select * from performance_data
