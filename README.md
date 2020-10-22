@@ -24,6 +24,8 @@ $ pip install -r requirements.txt
 
 ## Step 4: Run the application
 Clone the project to local computer/device.
-Run 'S & P ETL Project.ipynb' .
+Run 'S & P ETL Project.ipynb' .\
+![](S_&_P_ETL_Pandas/Resources/assets/images/Line_Top_5_YTD_PerChg.png)\
+![](S_&_P_ETL_Pandas/Resources/assets/images/Pie1MChg.png)
 
 
