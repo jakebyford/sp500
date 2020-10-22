@@ -18,7 +18,7 @@ $ pip install -r requirements.txt
 
 ## Step 3: Obtain required API Key & Secret Key
 * After obtaining keys from https://alpaca.markets/, copy that key into the config.py file.\
-![](Resources/assets/images/Alpaca.png)
+![](S_&_P_ETL_Pandas/Resources/assets/images/Alpaca.png)
 * Be sure to stay on the Overview page when you run the notebook or you will lose your secret key. API Keys are on the right side.
 
 
