@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # The Top Ten
 
 ## Introduction
@@ -25,3 +26,7 @@ $ pip install -r requirements.txt
 Clone the project to local computer/device.
 Run 'S & P ETL Project.ipynb'.
 
+=======
+# sp500
+Multi-page dashboard displaying the best stocks/sectors of the S&amp;P 500 dated 09/01/2020
+>>>>>>> 26de60f2cada4df733946fdb8126fd9cf55ef441
