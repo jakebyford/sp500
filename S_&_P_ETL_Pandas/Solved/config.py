@@ -1,3 +1,3 @@
 #  Add your API key
-api_key = "api_key_here"
-secret_key = "secret_key_here"
+api_key = "AKK5BBA7327A0RS2IF01"
+secret_key = "3TeC47yGHKgXRbROcO2lfuItbYixqQoQctt2Dpo4"
