@@ -14,25 +14,15 @@
 <body>
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light backgroundcolor">
-        <a class="navbar-brand" style = "background-color: skyblue" href="../Solved/index.html">Dashboard</a>
+        <a class="navbar-brand" style = "background-color: skyblue" href="../../Solved/index.html">Dashboard</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-              <li class="dropdown nav-item">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Top 5 Stocks 
-                </a>
-                <ul class="dropdown-menu blackBg">
-                  <li><a class="dropdown-item" href="../Solved/one_month_change.html">One Month Percent Change</a></li>
-                  <li><a class="dropdown-item" href="../Solved/three_month_change.html">Three Month Percent Change</a></li>
-                  <li><a class="dropdown-item" href="../Solved/fifty_two_week_change.html">52 Week Percent Change</a></li>
-                  <li><a class="dropdown-item" href="../Solved/ytd_change.html">Year-to-Date Change</a></li>
-                </ul>
-              </li>
-            <a class="nav-link" href="../Solved/comparison.html">Top 10 Stocks</a>
-            <a class="nav-link" href="../Solved/pie_charts.html">Pie Charts by Sector</a>
+            <a class="nav-link" href="../../Solved/top5.html">Top 5 Stocks</a>
+            <a class="nav-link" href="../../Solved/comparison.html">Top 10 Stocks</a>
+            <a class="nav-link" href="../../Solved/pie_charts.html">Pie Charts by Sector</a>
           </div>
         </div>
       </nav>
@@ -45,11 +35,13 @@
   <div class = "row">
       <div class="col-lg-8 col-md-8">
         <div class="card card-1">
-          <strong><h3 class = "title">Top 10 Stocks with YTD%Chg by Sector</h3></strong>
+          <strong><h3 class = "title">S&P 500: Top 5 Stocks (1M%Chg - [08/31/20])</h3></strong>
           <hr>
-          <p><img src="../Resources/assets/images/PieYTDChg.png" alt="Jake Byford" class ="maxtemp" />
+          <p><img src="../Q2-2020-Resources/assets/images/Line_Top_5_1M_PerChg.png" alt="Jake Byford" class ="maxtemp" />
             <br></br>
-            This year is all about Information Technology. Let's see how the rest of 2020 goes.
+            Closing out August, Salesforce (CRM) replaced Exxon (XOM) on the Dow Jones with shares up 28% for the year. 
+            This change was simply to help offset Exxons' 40% reduction. 
+            Royal Carribean (RCL) shares rose this month as major cruise lines get prepared to resume sailing even though earnings were mediocre. 
               <br></br>                
           </p>
         </div>
@@ -62,12 +54,12 @@
     <div class = "col-lg-4 col-md-4">
       <div class = "card card-2">
           <section style = "width = 100%">
-          <strong><h3 class = "title">Visualizations</h3></strong>
+          <strong><h3 class = "title">Top 5 (Q2 2020)</h3></strong>
           <hr>
-            <a href="../Solved/1MPie.html"><img src="../Resources/assets/images/Pie1MChg.png" alt="Jake Byford" class ="viz" /></a>
-            <a href="../Solved/3MPie.html"><img src="../Resources/assets/images/Pie3MChg.png" alt="Jake Byford" class ="viz" /></a>
-            <a href="../Solved/52WPie.html"><img src="../Resources/assets/images/Pie52WChg.png" alt="Jake Byford" class ="viz" /></a>
-            <a href="../Solved/YTDPie.html"><img src="../Resources/assets/images/PieYTDChg.png" alt="Jake Byford" class ="viz" /></a>
+            <a href="../Q2-2020-Solved/one_month_change.html"><img src="../Q2-2020-Resources/assets/images/Line_Top_5_1M_PerChg.png" alt="Jake Byford" class ="viz" /></a>
+            <a href="../Q2-2020-Solved/three_month_change.html"><img src="../Q2-2020-Resources/assets/images/Line_Top_5_3M_PerChg.png" alt="Jake Byford" class ="viz" /></a>
+            <a href="../Q2-2020-Solved/fifty_two_week_change.html"><img src="../Q2-2020-Resources/assets/images/Line_Top_5_52WPerChg.png" alt="Jake Byford" class ="viz" /></a>
+            <a href="../Q2-2020-Solved/ytd_change.html"><img src="../Q2-2020-Resources/assets/images/Line_Top_5_YTD_PerChg.png" alt="Jake Byford" class ="viz" /></a>
           </section>  
             
       </div>
@@ -83,7 +75,8 @@
     <!-- all other page content -->
     </div>
     <footer id = "footer"> 
-        <div class = "footer">Top Sectors of S&P 500 (YTD%Chg) </div>
+      <div class = "footer">Top 5 Stocks in S&P 500 (1M%Chg)</div>
+        <!-- <div class = "footer">&copy Copyright Data Science Bootcamp 2020 </div>  -->
     </footer>
 </div>
 </body>
