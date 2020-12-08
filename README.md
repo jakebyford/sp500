@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The primary focus of this ETL project is to update you on the top ten best performing stocks of the S&P 500 per fiscal quarter. This information is then matched with each company's respected sector to identify which sectors are out-perfoming. For example, in Q2 2020, the company Fedex (FDX) is up +95.01% ranking #07 in the Top 10 Year-to-Date stocks of the S&P 500 thus far. Click <a href ="https://jakebyford.github.io/sp500/S_&_P_ETL_Pandas/Solved/index.html"><strong>here</strong></a> to view the dashboard.
+The primary focus of this ETL project is to update you on the top ten best performing stocks of the S&P 500 per fiscal quarter. This information is then matched with each company's respected sector to identify which sectors are out-perfoming. For example, in Q2 2020, the company Fedex (FDX) is up +95.01% ranking #07 in the Top 10 Year-to-Date stocks of the S&P 500 thus far. Click <a href ="https://jakebyford.github.io/sp500/S_&_P_ETL_Pandas/Solved/index.html"><strong>HERE</strong></a> to view the dashboard.
 
 ## Step 1: System Requirements
 
